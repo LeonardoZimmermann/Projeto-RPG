@@ -7,6 +7,8 @@ class Personagem:
         self.inteligencia = 0
         self.sabedoria = 0
         self.carisma = 0
+        self.classe = None
+        self.raca = None
 
     def exibir_atributos(self):
         print(f"\n-- Atributos do Personagem: {self.nome} --")
